@@ -1,3 +1,5 @@
+package td08;
+
 public class Main {
     static void main() {
 //        BankAccount jp = new BankAccount("jp",1000);

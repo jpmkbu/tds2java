@@ -1,3 +1,5 @@
+package td08;
+
 public class BankAccount {
     private String owner;
     private double balance;
@@ -22,13 +24,13 @@ public class BankAccount {
         this.owner = owner;
     }
 
-////    @Override
-////    public String toString() {
-////        return "BankAccount{" +
-////                "owner='" + owner + '\'' +
-////                ", balance=" + balance +
-////                '}';
-//    }
+  @Override
+    public String toString() {
+       return "BankAccount{" +
+               "owner='" + owner + '\'' +
+            ", balance=" + balance +
+              '}';
+    }
 
     public void deposit(double  amount) {
         if(amount<= 0){
